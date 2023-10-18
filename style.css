@@ -13,6 +13,21 @@ body{
     font-family: 'Inter', sans-serif;
 }
 
+button{
+    cursor: pointer;
+}
+
+.primary-btn{
+    padding: 1rem 2.5rem;
+    border-radius: 8px;
+    border: 2px solid #EBEBEE;
+    background: var(--primary-color);
+    color: #44E6F6;
+    text-transform: uppercase;
+    font-weight: 700;
+    font-size: 1rem;
+}
+
 /* Header and Logo */
 header{
     padding: 0.93rem 0;
@@ -32,7 +47,6 @@ header{
 }
 
 /* App Pricing Section */
-
 .app-pricing-section{
     display: flex;
     align-items: start;
@@ -110,7 +124,6 @@ header{
 
 .currency-select{
     background: none;
-    outline: none;
     border: none;
     font-size: 1.5rem;
     font-weight: 700;
@@ -142,7 +155,6 @@ header{
     border-radius: 8px;
     border: 2px solid #432B7B;
     background: #432B7B;
-    outline: none;
     color: #45E6F7;
     padding: 1rem 2.5rem;
     margin-top: 4.3rem;
@@ -329,18 +341,6 @@ header{
     padding: 1.5rem 1.5rem 0 1.5rem;
 }
 
-.primary-btn{
-    outline: none;
-    padding: 1rem 2.5rem;
-    border-radius: 8px;
-    border: 2px solid #EBEBEE;
-    background: var(--primary-color);
-    color: #44E6F6;
-    text-transform: uppercase;
-    font-weight: 700;
-    font-size: 1rem;
-}
-
 /* Trusted Companies Section */
 .trusted-companies-section{
     display: flex;
@@ -364,7 +364,6 @@ header{
     gap: 3rem;
     margin: 3.4rem 0 2.5rem 0;
 }
-
 
 /* Accordion Section */
 .accordion-section{
@@ -437,7 +436,6 @@ header{
     border: solid 2px var(--primary-color);
     padding: 1rem 2.5rem;
     border-radius: 10px;
-    outline: none;
     font-size: 1.5rem;
     font-weight: 700;
     text-transform: uppercase;
